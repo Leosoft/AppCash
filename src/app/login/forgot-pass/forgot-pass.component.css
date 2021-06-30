@@ -1,0 +1,30 @@
+#letraCeleste{
+  color:  #87bbfd;
+  font-family: Gotham;
+}
+#letraComun{
+  color: #1f3b74;
+  font-family: Gotham;
+}
+
+.letraTitulo{
+  color: #1f3b74;
+  font-family: Palanquin;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family:Gotham ;
+  src: url(gotham.otf);
+}
+@font-face {
+  font-family: Palanquin;
+  src: url(Palanquin.ttf);
+}
+body{
+  background-image: url(fondoweb.png);
+  background-position: center center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

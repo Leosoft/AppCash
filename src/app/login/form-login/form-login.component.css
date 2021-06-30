@@ -1,0 +1,38 @@
+footer.footer{
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+  left: 0px;
+}
+
+#letraCeleste{
+  color:  #87bbfd;
+  font-family: Gotham;
+}
+#letraComun{
+  color: #1f3b74;
+  font-family: Gotham;
+}
+#letraTitulos{
+  color: #1f3b74;
+  font-family: Palanquin;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family:Gotham ;
+  src: url(gotham.otf);
+}
+@font-face {
+  font-family: Palanquin;
+  src: url(Palanquin.ttf);
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(fondoweb.png);
+  background-position: center -310px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
